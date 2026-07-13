@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36717.8 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoLIST.Api", "src\ToDoLIST.Api\ToDoLIST.Api.csproj", "{D36B7911-EC7E-459E-9457-1C6DA2E9EE05}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D36B7911-EC7E-459E-9457-1C6DA2E9EE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D36B7911-EC7E-459E-9457-1C6DA2E9EE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D36B7911-EC7E-459E-9457-1C6DA2E9EE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D36B7911-EC7E-459E-9457-1C6DA2E9EE05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D36B7911-EC7E-459E-9457-1C6DA2E9EE05} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7357451-01F1-4F4E-929E-F635393C58E5}

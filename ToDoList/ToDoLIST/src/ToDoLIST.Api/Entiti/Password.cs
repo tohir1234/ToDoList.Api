@@ -1,6 +1,7 @@
-﻿namespace ToDoLIST.Api.Entiti
+﻿namespace ToDoLIST.Api.Entiti;
+
+public class Password
 {
-    public class Password
-    {
-    }
+
+
 }
