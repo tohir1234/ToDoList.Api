@@ -1,12 +1,12 @@
 ﻿using ToDoLIST.Api.Models;
 
-namespace ToDoLIST.Api.Entiti
+namespace ToDoLIST.Api.Entities
 {
     public class ToDoItem
     {
        
             public long ToDoItemId { get; set; }
-            public string Title { get; set; } = string.Empty;
+            public string Title { get; set; } 
             public string? Description { get; set; }
             public bool IsCompleted { get; set; }
             public bool IsDeleted { get; set; }
